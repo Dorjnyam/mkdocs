@@ -191,9 +191,8 @@ The site is configured through `mkdocs.yml`:
 - Contact the documentation team for major changes
 
 ### Community Resources
-- Documentation style guide
-- Translation guidelines
-- Contributor onboarding materials
+- [Documentation style guide](https://www.mkdocs.org/getting-started/)
+- [Translation guidelines](https://www.mkdocs.org/user-guide/localizing-your-theme/)
 
 ## Updates and Maintenance
 
