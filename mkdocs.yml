@@ -1,0 +1,32 @@
+site_name: MyApp User Manual
+theme:
+  name: material
+
+plugins:
+  - search
+  - i18n:
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: mn
+          name: Монгол
+          build: true
+
+nav:
+  - Introduction: index.md
+  - Getting Started: getting-started.md
+  - Features:
+      - Dashboard: features/dashboard.md
+      - Account Management: features/account.md
+      - Main Features:
+          - Creating: features/creating.md
+          - Editing: features/editing.md
+          - Exporting: features/exporting.md
+  - FAQ: faq.md
+  - Troubleshooting: troubleshooting.md
+  - Appendix:
+      - Glossary: appendix/glossary.md
+      - Changelog: appendix/changelog.md
+  - About: about.md
